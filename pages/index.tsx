@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Welcome from '../components/Welcome'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -12,10 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <title>מה שכבר מוכן</title>
       </Head>
-      <main className={styles.main}>
-      </main>
-      <footer className={styles.footer}>
-      </footer>
+      <Welcome/>
     </div>
   )
 }
