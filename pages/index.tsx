@@ -1,20 +1,15 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../components/Header'
 import Welcome from '../components/Welcome'
-import styles from '../styles/Home.module.css'
+import { StyledHome } from '../styles/Home.styled'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="description" content="האפליקציה של יד תמר" />
-        <link rel="icon" href="/favicon.ico" />
-        <title>מה שכבר מוכן</title>
-      </Head>
+    <StyledHome>
+      <Header/>
       <Welcome/>
-    </div>
+    </StyledHome>
   )
 }
 
