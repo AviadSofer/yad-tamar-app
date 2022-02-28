@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Button, Explain, Girl, GreenTitle, Logo, StyledWelcome, StyledWrap, WelcomeTitle } from '../styles/Welcome.styled';
+import { StyledButton } from '../styles/Button.styled';
+import { Explain, Girl, GreenTitle, Logo, StyledWelcome, StyledWrap, WelcomeTitle } from '../styles/Welcome.styled';
 
 const Welcome: React.FC = () => {
   return (
@@ -8,8 +8,8 @@ const Welcome: React.FC = () => {
         <Logo src={'/logo.svg'} height={104} width={104}/>
         <WelcomeTitle>Welcome to Tamar, <GreenTitle>Jack</GreenTitle>!</WelcomeTitle>
         <Explain>To begin communication, you should create a new family.</Explain>
-        <Button>Create a new family</Button>
-        <Girl src={'/girl.svg'} height={622} width={622}/>
+        <StyledButton>Create a new family</StyledButton>
+        <Girl src={'/girl.svg'} height={600} width={600}/>
       </StyledWrap>
     </StyledWelcome>
   )
