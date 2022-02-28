@@ -23,9 +23,9 @@ export const Logo = styled(Image)`
 `
 
 export const WelcomeTitle = styled.h1`
-font-size: 1.4rem;
+font-size: 2rem;
 font-family: 'Nunito', sans-serif;
-margin-bottom: 0;
+margin: 0;
 `
 
 export const GreenTitle = styled.span`
@@ -33,7 +33,7 @@ color: green;
 `
 
 export const Explain = styled.h2`
-font-size: 0.7rem;
+font-size: 1rem;
 font-family: 'Open Sans', sans-serif;
 `
 
