@@ -1,5 +1,5 @@
 import type {NextPage} from 'next';
-import {StyledCreateFamily} from '../styles/createFamily.styled';
+import {StyledCreateFamily} from '../styles/CreateFamily.styled';
 
 const CreateFamily: NextPage = () => {
   return (
