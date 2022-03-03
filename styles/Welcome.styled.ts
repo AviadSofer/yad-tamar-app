@@ -5,7 +5,7 @@ export const StyledWelcome = styled.div`
 height: 100vh;
 display: flex;
 justify-content: center;
-background-image: url('/Vector29.svg');
+background-image: url('/blue-vector.svg');
 background-repeat: no-repeat;
 background-position: center bottom;
 background-size: 100vw;
