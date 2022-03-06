@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <link rel="icon" href="/favicon.ico" />
       <title>מה שכבר מוכן</title>
     </Head>
-  )
-}
+  );
+};
 
 export default Header;

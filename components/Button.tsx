@@ -1,15 +1,14 @@
-import { useState } from 'react';
-import { Border, Container, StyledButton } from '../styles/Button.styled';
+import {Border, Container, StyledButton} from '../styles/Button.styled';
 
-const Button: React.FC = ({ children }) => {
+const Button: React.FC = ({children}) => {
   return (
     <Container>
-        <StyledButton>
-            {children}
-        </StyledButton>
-        <Border/>
+      <StyledButton>
+        {children}
+      </StyledButton>
+      <Border/>
     </Container>
-  )
-}
+  );
+};
 
 export default Button;

@@ -1,3 +1,4 @@
 /node_modules
 /pages/_document.tsx
 /pages/_app.tsx
+next-env.d.ts
